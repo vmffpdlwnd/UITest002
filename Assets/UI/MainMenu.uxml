@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BG.uss?fileID=7433441132597879392&amp;guid=aaa00f81ab706824482772b5b6050b2b&amp;type=3#BG" />
+    <ui:VisualElement name="BG" class="BG">
+        <ui:VisualElement name="Left" class="Side">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Middle" class="Middle">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" class="Side">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Loding">
+        <ui:ProgressBar value="30" title="my-progress" name="ProgressBar" class="Lodingbar" />
+    </ui:VisualElement>
+</ui:UXML>

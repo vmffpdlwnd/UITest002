@@ -1,0 +1,30 @@
+.BG {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(194, 251, 255, 0);
+}
+
+.Side {
+    width: 25%;
+    height: 100%;
+    font-size: 80px;
+    background-color: rgba(77, 245, 43, 0);
+    flex-grow: 1;
+    color: rgb(255, 0, 0);
+}
+
+.Middle {
+    flex-grow: 1;
+    color: rgb(50, 243, 38);
+    font-size: 50px;
+    background-image: none;
+}
+
+.Lodingbar {
+    width: 100%;
+    align-items: stretch;
+    justify-content: flex-end;
+    align-self: auto;
+    height: 100px;
+}
