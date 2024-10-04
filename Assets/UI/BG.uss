@@ -1,8 +1,10 @@
 .BG {
     flex-grow: 1;
-    flex-direction: row;
     justify-content: center;
     background-color: rgba(194, 251, 255, 0);
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
 }
 
 .Side {
@@ -21,10 +23,16 @@
     background-image: none;
 }
 
-.Lodingbar {
-    width: 100%;
+.Button {
+    color: rgb(255, 0, 0);
+    background-color: rgba(77, 245, 43, 0);
+    flex-grow: 1;
+    width: 25%;
+    font-size: 80px;
+}
+
+.Loadingbar {
     align-items: stretch;
-    justify-content: flex-end;
-    align-self: auto;
-    height: 100px;
+    flex-shrink: 0;
+    position: relative;
 }
